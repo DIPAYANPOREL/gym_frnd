@@ -13,7 +13,7 @@ const LeftArrow = () => {
 
     return (
         <Typography onClick={() => scrollPrev()} className="right-arrow">
-            <img src={LeftArrowIcon} alt="right-arrow" />
+            <img src={LeftArrowIcon} alt="left-arrow" />
         </Typography>
     );
 };
@@ -36,7 +36,7 @@ const HorizontalScrollbar = ({ data, bodyPart, setBodyPart }) => {
         >
             {data.map((item) => (
                 <Box key={item.id || item}
-                    itemId={item.id || item}
+                    itemID={item.id || item}
                     title={item.id || item}
                     m="0 40px">
                     {/* {bodyParts ?  */}
