@@ -8,6 +8,14 @@ export const exerciseOptions = {
     },
 };
 
+export const youtubeOptions = {
+    method: 'GET',
+    // url: 'https://youtube-search-and-download.p.rapidapi.com/video/related',
+    headers: {
+        'X-RapidAPI-Key': '23ec6af8d8msha5d6875e16cec91p13fcb3jsn3775b21dc907',
+        'X-RapidAPI-Host': 'youtube-search-and-download.p.rapidapi.com'
+    }
+};
 
 
 export const fetchData = async (url, options) => {
